@@ -1,0 +1,25 @@
+{
+    "name": "mchekin/mvc-boiler",
+    "description": "Framework-agnostic Model-View-Controller boilerplate in PHP",
+    "authors": [
+        {
+            "name": "Michael Chekin",
+            "email": "mchekin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Mchekin\\MVCBoiler\\": "src/",
+            "Mchekin\\MVCBoiler\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "laravel/homestead": "^3.0",
+        "phpunit/phpunit": "5.0.*",
+        "mockery/mockery": "^0.9.4"
+    }
+}

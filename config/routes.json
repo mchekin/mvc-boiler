@@ -1,0 +1,14 @@
+{
+    "get": {
+        "/": {
+            "controller": "App\\CommentsSystem\\Controllers\\CommentController",
+            "action": "index"
+        }
+    },
+    "post": {
+        "/comment/{id}": {
+            "controller": "App\\CommentsSystem\\Controllers\\CommentController",
+            "action": "add"
+        }
+    }
+}
